@@ -1,0 +1,21 @@
+[user]
+	name = Yuval Langer
+	email = yuval.langer@gmail.com
+	signingkey = 92DEA7D8
+[gui]
+	fontdiff = -family Inconsolata -size 16 -weight normal -slant roman -underline 0 -overstrike 0
+[core]
+	editor = vim
+	excludesfile = /home/yankel/.gitignore_global
+[diff]
+	tool = diff
+[difftool]
+	tool = meld
+[push]
+	default = simple
+[alias]
+	lg = log --all --graph --decorate --color
+[branch]
+	autosetuprebase = always
+[pull]
+	rebase = preserve
