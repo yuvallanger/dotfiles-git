@@ -25,3 +25,5 @@
 	tool = meld
 [color]
 	ui = true
+[branch]
+	autosetuprebase = always
