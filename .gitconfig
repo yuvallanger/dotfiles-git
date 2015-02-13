@@ -8,22 +8,17 @@
 	editor = vim
 	excludesfile = /home/yankel/.gitignore_global
 [diff]
-	tool = diff
-[difftool]
+	guitool = meld
 	tool = meld
-[push]
-	default = tracking
 [alias]
 	lg = log --all --graph --decorate --color
 	df = diff --word-diff
 	l = log --graph --decorate --color --oneline
-[mergetool]
-	cmd = meld "$LOCAL" "$MERGED" "$REMOTE"
-[github]
-	user = yuvallanger
+	s = status
+	ls = ls-files
 [merge]
-	tool = meld
+	guitool = meld
 [color]
 	ui = true
-[branch]
-	autosetuprebase = always
+[push]
+	default = simple
